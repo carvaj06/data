@@ -1,3 +1,5 @@
+<script type="text/javascript">
+  
 function customizeCellFunction(cell, data) {
   if (data && data.hierarchy && data.hierarchy.uniqueName == "Price" && data.type == "value") {
     if (!data.isTotal) {
@@ -9,3 +11,4 @@ function customizeCellFunction(cell, data) {
     }
   }
 }
+</script>
